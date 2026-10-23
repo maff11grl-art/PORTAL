@@ -1,0 +1,6 @@
+{
+  "name": "PortalHouse | Inmobiliaria de Lujo",
+  "description": "Portal inmobiliario de lujo con sincronización en tiempo real en Firestore, autenticación Firebase y panel de administración.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

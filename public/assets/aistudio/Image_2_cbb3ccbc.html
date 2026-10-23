@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+
+<html lang="es"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><title>PortalHouse | Real Estate</title><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&amp;family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "on-tertiary-fixed": "#1c1c18", "on-secondary-container": "#79592d", "outline": "#75777a", "secondary-fixed-dim": "#e9c08a", "on-primary": "#ffffff", "surface-variant": "#e2e3e1", "on-error-container": "#93000a", "surface-container-low": "#f4f4f2", "inverse-on-surface": "#f1f1ef", "secondary-container": "#fed39c", "on-primary-fixed-variant": "#464748", "on-error": "#ffffff", "tertiary": "#000000", "on-tertiary": "#ffffff", "primary-fixed": "#e3e2e3", "error-container": "#ffdad6", "on-secondary-fixed-variant": "#5e4117", "inverse-primary": "#c7c6c7", "surface-tint": "#5e5e5f", "surface-container-lowest": "#ffffff", "on-primary-container": "#848485", "surface": "#f9f9f7", "secondary": "#78592d", "tertiary-fixed": "#e6e2dc", "surface-bright": "#f9f9f7", "surface-container": "#eeeeec", "on-background": "#1a1c1b", "tertiary-fixed-dim": "#c9c6c0", "primary-fixed-dim": "#c7c6c7", "outline-variant": "#c5c6c9", "surface-container-highest": "#e2e3e1", "on-tertiary-container": "#86847e", "on-tertiary-fixed-variant": "#484742", "inverse-surface": "#2f3130", "surface-dim": "#dadad8", "on-secondary-fixed": "#291800", "error": "#ba1a1a", "on-secondary": "#ffffff", "surface-container-high": "#e8e8e6", "secondary-fixed": "#ffddb4", "tertiary-container": "#1c1c18", "on-surface-variant": "#44474a", "on-primary-fixed": "#1b1c1d", "background": "#f9f9f7", "on-surface": "#1a1c1b", "primary": "#000000", "primary-container": "#1b1c1d" }, "borderRadius": { "DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem" }, "spacing": { "space-md": "1.25rem", "space-xl": "3.5rem", "space-lg": "2rem", "margin-md": "2.5rem", "space-sm": "0.75rem", "margin-lg": "4rem", "margin": "1.25rem", "space-xs": "0.375rem", "gutter-lg": "2.5rem", "gutter": "1.5rem" }, "fontFamily": { "headline-lg": ["Playfair Display"], "headline-sm": ["Playfair Display"], "title-md": ["Plus Jakarta Sans"], "label-sm": ["Plus Jakarta Sans"], "label-md": ["Plus Jakarta Sans"], "title-lg": ["Plus Jakarta Sans"], "body-sm": ["Plus Jakarta Sans"], "display": ["Playfair Display"], "headline-md": ["Playfair Display"], "display-mobile": ["Playfair Display"], "headline-lg-mobile": ["Playfair Display"], "body-lg": ["Plus Jakarta Sans"], "body-md": ["Plus Jakarta Sans"] }, "fontSize": { "headline-lg": ["40px", { "lineHeight": "48px", "letterSpacing": "-0.01em", "fontWeight": "400" }], "headline-sm": ["22px", { "lineHeight": "30px", "fontWeight": "500" }], "title-md": ["16px", { "lineHeight": "24px", "fontWeight": "600" }], "label-sm": ["10px", { "lineHeight": "14px", "letterSpacing": "0.08em", "fontWeight": "600" }], "label-md": ["12px", { "lineHeight": "16px", "letterSpacing": "0.06em", "fontWeight": "600" }], "title-lg": ["18px", { "lineHeight": "26px", "letterSpacing": "-0.01em", "fontWeight": "600" }], "body-sm": ["12px", { "lineHeight": "18px", "fontWeight": "400" }], "display": ["56px", { "lineHeight": "64px", "letterSpacing": "-0.02em", "fontWeight": "400" }], "headline-md": ["28px", { "lineHeight": "36px", "fontWeight": "500" }], "display-mobile": ["36px", { "lineHeight": "44px", "letterSpacing": "-0.01em", "fontWeight": "400" }], "headline-lg-mobile": ["28px", { "lineHeight": "36px", "letterSpacing": "0em", "fontWeight": "400" }], "body-lg": ["16px", { "lineHeight": "26px", "fontWeight": "400" }], "body-md": ["14px", { "lineHeight": "22px", "fontWeight": "400" }] } } } };</script></head><body class="bg-background font-body-md text-on-surface antialiased"><header class="fixed top-0 left-0 right-0 z-50 bg-surface/85 backdrop-blur-xl border-b border-outline-variant/50"><div class="h-20 max-w-7xl mx-auto px-margin md:px-gutter-lg flex items-center justify-between gap-space-md"><div class="flex items-center gap-space-sm"><a class="flex items-center gap-space-xs" data-path="inicio" href="#"><img alt="PortalHouse Luxury Real Estate Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1XsAauho9plFzY5ReBneSn_li4auWWHCgR-aAPRpdSgBXlCz6lcXmVCw2R8ZNTcyOCL4hcJF0us_JFL2Fi24om5gWgkBYLdJdWjUcDnlDEdbvFZOzRyAH23_Za1Aq_fY546aT3q5lLrwyxjV3e0_x0HLe_IpjKHc5gq9oadLGVONimJDBk4uneRt_Pmxh0pcQm5VuJIPf-S9wQxL4j7TZ9dMy5e8g35oJV9NkVe0VVD0IkIdfL09rM83Hrs"/><span class="font-headline-sm text-headline-sm tracking-tight text-on-surface uppercase">PortalHouse</span></a></div><nav class="hidden lg:flex items-center gap-space-lg" data-active-classes="text-on-surface border-b-2 border-primary font-title-md"><a class="font-label-md text-label-md uppercase tracking-widest text-on-surface-variant hover:text-on-surface transition-colors py-1" data-path="comprar" href="#">Comprar</a><a class="font-label-md text-label-md uppercase tracking-widest text-on-surface-variant hover:text-on-surface transition-colors py-1" data-path="alquilar" href="#">Alquilar</a><a class="font-label-md text-label-md uppercase tracking-widest text-on-surface-variant hover:text-on-surface transition-colors py-1" data-path="catalogo" href="#">Catálogo</a><a class="font-label-md text-label-md uppercase tracking-widest text-on-surface-variant hover:text-on-surface transition-colors py-1" data-path="contacto" href="#">Contacto</a></nav><div class="flex items-center gap-space-sm"><a class="hidden sm:inline-flex items-center justify-center font-label-md text-label-md uppercase tracking-wider px-space-md py-space-xs text-on-surface border border-outline-variant hover:border-secondary hover:text-secondary transition-colors rounded" data-path="iniciar-sesion" href="#">Iniciar Sesión</a><a class="inline-flex items-center gap-space-xs bg-primary text-on-primary hover:bg-on-surface-variant px-space-md py-space-xs font-label-md text-label-md uppercase tracking-wider transition-colors rounded" data-path="acceso-agente" href="#"><span class="hidden md:inline">Acceso Agente</span><img alt="Profile" class="w-8 h-8 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD-juygfOHKi181mpzSX8NFcDHfzRAtPfccj0AVX8UwNRAPV2pMbHmMQuthDEMB9K2hyyfqjFRBqk7Vf74VxBsSUt0yV_4LT3NhfujsGCP3qhzaIRcsj0nYYpYHceLuuutVY3_gu1XtzpnZGue4Qb1ciOWJ5q7DTEYbOob8u0LveR8KwOoixhPVO2Ya-V1CN_1anPm5SrOr6lCvup6A3nuC674na_2PLcxeh9_r6tXXqb3mEZlNj29coA"/></a></div></div></header><main class="w-full pt-20 bg-background min-h-screen"><div class="flex flex-col w-full">
+<!-- 1. Hero Section (bleeds slightly up to harmonize with the header) -->
+<section class="relative w-full overflow-hidden -mt-20">
+<!-- Background Image Container -->
+<div class="relative w-full h-[901px] min-h-[640px] max-h-[920px] bg-cover bg-center flex items-center" data-alt="Ultra-luxurious modernist villa constructed with raw board-formed concrete and expansive glass curtain walls at blue hour dusk. Interior glows warmly with recessed architectural bronze ambient lighting. A cantilevered infinity edge pool reflects the lavender sky and surrounding minimalist landscaping with stone sculptures. High-end architectural photography, warm European minimalism, serene and majestic atmosphere." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuB4NEfatfnDMXQO9oFgo0qDW4WANDCTQuLT1SBrt5VPeNUwX2lH_ixUJpUwATteKx23JgGuJbK_i_ABRenojfB3Au6eHeyikwN6ZXAnhdlSQfEHKdf-g2Ph8ZKnLFFIfr77wXOdEQffoBL4hI_exoQVBtfyRaEo3hSp0Zx3PiKxs-CX_vFAFB8XHzzK9MP2IXAZ0oSsh2Ywh9deZ5xw2juAZMbko__8oO7xl5HrOCcVkhL6FblsuWOfzA')">
+<!-- Gradient Scrim for Editorial Legibility -->
+<div class="absolute inset-0 bg-gradient-to-t from-primary/90 via-primary/40 to-transparent"></div>
+<div class="absolute inset-0 bg-gradient-to-r from-primary/70 via-primary/20 to-transparent"></div>
+<!-- Hero Typography Content -->
+<div class="relative z-10 w-full max-w-7xl mx-auto px-margin md:px-gutter-lg pt-28 pb-20">
+<div class="max-w-3xl space-y-space-md">
+<!-- Overline Tag -->
+<div class="inline-flex items-center gap-space-xs px-space-sm py-1 bg-surface-container-lowest/15 backdrop-blur-md rounded-full">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary-container"></span>
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-surface-bright">Colección Privada · Invierno 2025</span>
+</div>
+<!-- Editorial Main Headline -->
+<h1 class="font-display text-display text-surface-bright tracking-tight leading-[1.08] drop-shadow-sm">
+            Arquitectura que define su legado.
+          </h1>
+<!-- Refined Subtitle -->
+<p class="font-body-lg text-body-lg text-surface-container-high max-w-2xl font-light leading-relaxed">
+            Acceso discreto y exclusivo a las residencias contemporáneas más extraordinarias del mundo. Obras maestras concebidas para trascender.
+          </p>
+<!-- Quick Metrics Bar in Hero -->
+<div class="pt-space-xs flex flex-wrap items-center gap-space-lg text-surface-bright/90">
+<div class="flex flex-col">
+<span class="font-headline-sm text-headline-sm font-semibold tracking-tight text-surface-container-lowest">+340</span>
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-surface-variant">Propiedades Off-Market</span>
+</div>
+<div class="w-px h-8 bg-surface-variant/30"></div>
+<div class="flex flex-col">
+<span class="font-headline-sm text-headline-sm font-semibold tracking-tight text-surface-container-lowest">14</span>
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-surface-variant">Capitales Globales</span>
+</div>
+<div class="w-px h-8 bg-surface-variant/30"></div>
+<div class="flex flex-col">
+<span class="font-headline-sm text-headline-sm font-semibold tracking-tight text-surface-container-lowest">$2.8B</span>
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-surface-variant">Patrimonio Gestionado</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Floating Luxury Search Pod Widget -->
+<div class="relative z-20 max-w-6xl mx-auto px-margin md:px-gutter-lg -mt-16 w-full">
+<div class="bg-surface-container-lowest/95 backdrop-blur-xl rounded-2xl shadow-xl p-space-md md:p-space-lg">
+<!-- Operation Mode Pills & Status indicator -->
+<div class="flex items-center justify-between pb-space-sm mb-space-sm">
+<div class="flex items-center gap-space-xs bg-surface-container-high p-1 rounded-full">
+<button class="flex items-center gap-1.5 px-space-md py-1.5 rounded-full font-label-md text-label-md uppercase tracking-wider transition-all bg-primary text-on-primary shadow-sm" id="tab-buy" onclick="toggleMode('buy')" type="button">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary-container"></span>
+<span>En Venta</span>
+</button>
+<button class="flex items-center gap-1.5 px-space-md py-1.5 rounded-full font-label-md text-label-md uppercase tracking-wider transition-all text-on-surface-variant hover:text-on-surface" id="tab-rent" onclick="toggleMode('rent')" type="button">
+<span class="w-1.5 h-1.5 rounded-full bg-transparent"></span>
+<span>En Arriendo</span>
+</button>
+</div>
+<div class="hidden sm:flex items-center gap-2 text-on-surface-variant">
+<span class="material-symbols-outlined text-[18px] text-secondary">verified_user</span>
+<span class="font-label-sm text-label-sm uppercase tracking-wider">Verificación Notarial Garantizada</span>
+</div>
+</div>
+<!-- Inputs Grid -->
+<div class="grid grid-cols-1 md:grid-cols-12 gap-space-sm md:gap-0 items-center bg-surface rounded-xl p-space-xs">
+<!-- Ubicación -->
+<div class="md:col-span-4 p-space-sm flex flex-col gap-1">
+<label class="font-label-sm text-label-sm uppercase tracking-widest text-on-surface-variant flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px] text-secondary">location_on</span>
+              Ubicación
+            </label>
+<input class="bg-transparent font-title-md text-title-md text-on-surface placeholder:text-outline focus:outline-none w-full truncate" placeholder="La Dehesa, Vitacura, Polanco, Madrid..." type="text"/>
+</div>
+<div class="hidden md:block w-px h-10 bg-outline-variant/40"></div>
+<!-- Tipo de Propiedad -->
+<div class="md:col-span-3 p-space-sm flex flex-col gap-1">
+<label class="font-label-sm text-label-sm uppercase tracking-widest text-on-surface-variant flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px] text-secondary">apartment</span>
+              Tipo de Residencia
+            </label>
+<select class="bg-transparent font-title-md text-title-md text-on-surface focus:outline-none cursor-pointer w-full truncate">
+<option value="all">Todas las categorías</option>
+<option value="villa">Villa Contemporánea</option>
+<option value="penthouse">Penthouse Panorámico</option>
+<option value="mansion">Mansión de Autor</option>
+<option value="terreno">Finca &amp; Terreno Exclusivo</option>
+</select>
+</div>
+<div class="hidden md:block w-px h-10 bg-outline-variant/40"></div>
+<!-- Rango de Precio -->
+<div class="md:col-span-3 p-space-sm flex flex-col gap-1">
+<label class="font-label-sm text-label-sm uppercase tracking-widest text-on-surface-variant flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px] text-secondary">payments</span>
+              Presupuesto
+            </label>
+<select class="bg-transparent font-title-md text-title-md text-on-surface focus:outline-none cursor-pointer w-full truncate">
+<option value="any">Cualquier rango</option>
+<option value="1-3">$1.5M – $3.5M USD</option>
+<option value="3-7">$3.5M – $7.0M USD</option>
+<option value="7-15">$7.0M – $15.0M+ USD</option>
+<option value="trophy">Trophy Assets (Off-Market)</option>
+</select>
+</div>
+<!-- CTA Search Button -->
+<div class="md:col-span-2 p-space-xs flex justify-end">
+<button class="w-full h-14 bg-gradient-to-r from-secondary to-[#8c6d41] hover:brightness-105 text-on-primary font-label-md text-label-md uppercase tracking-wider rounded-lg shadow-md flex items-center justify-center gap-2 transition-all group" type="button">
+<span class="material-symbols-outlined text-[20px] transition-transform group-hover:scale-110">search</span>
+<span class="whitespace-nowrap font-medium">Explorar</span>
+</button>
+</div>
+</div>
+<!-- Quick filter chips below search bar -->
+<div class="flex flex-wrap items-center gap-space-xs pt-space-sm px-space-xs">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant">Tendencias:</span>
+<a class="px-space-xs py-0.5 rounded bg-surface-container font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" href="#">Villas con Helipuerto</a>
+<a class="px-space-xs py-0.5 rounded bg-surface-container font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" href="#">Penthouses Primera Línea</a>
+<a class="px-space-xs py-0.5 rounded bg-surface-container font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" href="#">Bodegas de Vino Privadas</a>
+<a class="px-space-xs py-0.5 rounded bg-surface-container font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" href="#">Casas Sustentables Leed Platinum</a>
+</div>
+</div>
+</div>
+</section>
+<!-- 2. Colección Curada (Destacadas) -->
+<section class="w-full py-space-xl max-w-7xl mx-auto px-margin md:px-gutter-lg">
+<!-- Header with asymmetrical editorial layout -->
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-space-lg gap-space-md">
+<div class="space-y-space-xs max-w-2xl">
+<div class="flex items-center gap-space-xs">
+<span class="w-8 h-px bg-secondary"></span>
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-secondary font-semibold">Selección Privada</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg text-on-surface tracking-tight">
+          Colección Destacada
+        </h2>
+<p class="font-body-md text-body-md text-on-surface-variant">
+          Obras maestras residenciales rigurosamente auditadas y seleccionadas por nuestro comité de tasación de alta gama.
+        </p>
+</div>
+<div class="flex items-center gap-space-sm">
+<a class="inline-flex items-center gap-2 font-label-md text-label-md uppercase tracking-wider text-on-surface hover:text-secondary transition-colors group" href="#">
+<span>Ver catálogo completo (84)</span>
+<span class="material-symbols-outlined text-[18px] transition-transform group-hover:translate-x-1">arrow_forward</span>
+</a>
+</div>
+</div>
+<!-- Properties Grid -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-gutter">
+<!-- Property Card 1 -->
+<article class="group bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col justify-between">
+<div>
+<!-- Image Container with badges -->
+<div class="relative w-full aspect-[4/3] overflow-hidden bg-surface-container">
+<div class="w-full h-full bg-cover bg-center transition-transform duration-700 ease-out group-hover:scale-105" data-alt="Brutalist luxury hillside mansion in Las Condes with vast panoramic views of the Andes mountain range. Raw architectural concrete, floor to ceiling glass walls, minimalist warm wooden decking and manicured zen garden. Golden hour twilight reflections. High-end architectural photography." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDYoEdjpBayWtcj5CUfJ95VfgkdA6kEEpTwCFmyH0_SBfy4nhRJz_qVsQoZlQRxHG0coyYGMiI-_5uQmcgfMhB3urejXq6jwG89cv6vQe6JzBLLpSunR40DofiQJRoFgyXTUAaoQ4D03VBvsrHNXj2kL9yUI543koPlg-j0z9vFCfz9xySbn8qdcxPWJcM1Kxjy07b92pMf4Xx3FApTSOpnjWGsn917aGvq8MljppBVM806oPuCTSa78Q')">
+</div>
+<!-- Badges Overlay -->
+<div class="absolute top-space-sm left-space-sm flex items-center gap-1.5">
+<span class="px-2.5 py-1 bg-surface-container-lowest/90 backdrop-blur-md font-label-sm text-label-sm uppercase tracking-wider text-secondary font-semibold rounded">
+                Exclusiva
+              </span>
+<span class="px-2.5 py-1 bg-primary/85 backdrop-blur-md font-label-sm text-label-sm uppercase tracking-wider text-on-primary rounded">
+                En Venta
+              </span>
+</div>
+<!-- Favorite Button -->
+<button class="absolute top-space-sm right-space-sm w-9 h-9 rounded-full bg-surface-container-lowest/90 backdrop-blur-md flex items-center justify-center text-on-surface hover:text-error transition-colors shadow-sm" onclick="toggleFav(this)" type="button">
+<span class="material-symbols-outlined text-[19px]">favorite</span>
+</button>
+</div>
+<!-- Content Body -->
+<div class="p-space-md space-y-space-sm">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-on-surface-variant flex items-center gap-1">
+<span class="material-symbols-outlined text-[15px] text-secondary">pin_drop</span>
+                Las Condes, Santiago
+              </span>
+<span class="font-label-sm text-label-sm uppercase tracking-widest px-2 py-0.5 rounded bg-surface-container font-medium text-on-surface-variant">Ref. PH-902</span>
+</div>
+<h3 class="font-title-lg text-title-lg text-on-surface group-hover:text-secondary transition-colors line-clamp-1">
+              Villa Cantagallo Horizon
+            </h3>
+<!-- Price -->
+<div class="font-headline-sm text-headline-sm font-semibold tracking-tight text-on-surface">
+              $4,850,000 <span class="font-label-md text-label-md text-on-surface-variant font-normal">USD</span>
+</div>
+<!-- Key Specs Matrix -->
+<div class="grid grid-cols-4 gap-1 py-space-xs bg-surface-container-low rounded-lg text-center px-1">
+<div class="flex flex-col items-center justify-center p-1">
+<span class="font-title-md text-title-md text-on-surface font-semibold">850</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase">m² útiles</span>
+</div>
+<div class="flex flex-col items-center justify-center p-1">
+<span class="font-title-md text-title-md text-on-surface font-semibold">5</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase">Hab</span>
+</div>
+<div class="flex flex-col items-center justify-center p-1">
+<span class="font-title-md text-title-md text-on-surface font-semibold">6</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase">Baños</span>
+</div>
+<div class="flex flex-col items-center justify-center p-1">
+<span class="font-title-md text-title-md text-on-surface font-semibold">4</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase">Autos</span>
+</div>
+</div>
+</div>
+</div>
+<div class="px-space-md pb-space-md pt-space-xs">
+<a class="w-full py-2.5 rounded bg-surface-container hover:bg-primary hover:text-on-primary text-on-surface font-label-md text-label-md uppercase tracking-wider flex items-center justify-center gap-1.5 transition-colors" href="#">
+<span>Solicitar Dossier Confidencial</span>
+<span class="material-symbols-outlined text-[16px]">chevron_right</span>
+</a>
+</div>
+</article>
+<!-- Property Card 2 -->
+<article class="group bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col justify-between">
+<div>
+<!-- Image Container with badges -->
+<div class="relative w-full aspect-[4/3] overflow-hidden bg-surface-container">
+<div class="w-full h-full bg-cover bg-center transition-transform duration-700 ease-out group-hover:scale-105" data-alt="Magnificent modern organic mansion situated in Pedregal Mexico City built into volcanic rock with travertine marble walls and water gardens. Lush tropical foliage, monumental dark bronze doors, warm minimalist illumination. Architectural digest cover style photograph." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDS4rMhZ9P0iG6tk2uZ-LrdAMBVuapf51tBlODgZGITndt6q2JW2cCsY-H8xgDy3sy6BWTtmJ_sPEyCRUmPaB3OZS3LpIlGbVBW8bSS-MuxvlV4KQ5kktv74IPRiPI7jhnzfL52fWnC9ql9P16J1rnZLa7ANmPVjLyfr_znfjr7a4T_7kZ7ds6zslhbiLdVHo7VyaIrLUxAkYdyqygS4iz2oeJZm08pQU6Nngom5sL3RDvo8iUrZgxT-A')">
+</div>
+<!-- Badges Overlay -->
+<div class="absolute top-space-sm left-space-sm flex items-center gap-1.5">
+<span class="px-2.5 py-1 bg-surface-container-lowest/90 backdrop-blur-md font-label-sm text-label-sm uppercase tracking-wider text-secondary font-semibold rounded">
+                Casa de Autor
+              </span>
+<span class="px-2.5 py-1 bg-primary/85 backdrop-blur-md font-label-sm text-label-sm uppercase tracking-wider text-on-primary rounded">
+                En Venta
+              </span>
+</div>
+<!-- Favorite Button -->
+<button class="absolute top-space-sm right-space-sm w-9 h-9 rounded-full bg-surface-container-lowest/90 backdrop-blur-md flex items-center justify-center text-on-surface hover:text-error transition-colors shadow-sm" onclick="toggleFav(this)" type="button">
+<span class="material-symbols-outlined text-[19px]">favorite</span>
+</button>
+</div>
+<!-- Content Body -->
+<div class="p-space-md space-y-space-sm">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-on-surface-variant flex items-center gap-1">
+<span class="material-symbols-outlined text-[15px] text-secondary">pin_drop</span>
+                Pedregal, Ciudad de México
+              </span>
+<span class="font-label-sm text-label-sm uppercase tracking-widest px-2 py-0.5 rounded bg-surface-container font-medium text-on-surface-variant">Ref. PH-418</span>
+</div>
+<h3 class="font-title-lg text-title-lg text-on-surface group-hover:text-secondary transition-colors line-clamp-1">
+              Residencia de Lava &amp; Mármol
+            </h3>
+<!-- Price -->
+<div class="font-headline-sm text-headline-sm font-semibold tracking-tight text-on-surface">
+              $8,200,000 <span class="font-label-md text-label-md text-on-surface-variant font-normal">USD</span>
+</div>
+<!-- Key Specs Matrix -->
+<div class="grid grid-cols-4 gap-1 py-space-xs bg-surface-container-low rounded-lg text-center px-1">
+<div class="flex flex-col items-center justify-center p-1">
+<span class="font-title-md text-title-md text-on-surface font-semibold">1,240</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase">m² útiles</span>
+</div>
+<div class="flex flex-col items-center justify-center p-1">
+<span class="font-title-md text-title-md text-on-surface font-semibold">6</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase">Suites</span>
+</div>
+<div class="flex flex-col items-center justify-center p-1">
+<span class="font-title-md text-title-md text-on-surface font-semibold">8</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase">Baños</span>
+</div>
+<div class="flex flex-col items-center justify-center p-1">
+<span class="font-title-md text-title-md text-on-surface font-semibold">6</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase">Autos</span>
+</div>
+</div>
+</div>
+</div>
+<div class="px-space-md pb-space-md pt-space-xs">
+<a class="w-full py-2.5 rounded bg-surface-container hover:bg-primary hover:text-on-primary text-on-surface font-label-md text-label-md uppercase tracking-wider flex items-center justify-center gap-1.5 transition-colors" href="#">
+<span>Solicitar Dossier Confidencial</span>
+<span class="material-symbols-outlined text-[16px]">chevron_right</span>
+</a>
+</div>
+</article>
+<!-- Property Card 3 -->
+<article class="group bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col justify-between">
+<div>
+<!-- Image Container with badges -->
+<div class="relative w-full aspect-[4/3] overflow-hidden bg-surface-container">
+<div class="w-full h-full bg-cover bg-center transition-transform duration-700 ease-out group-hover:scale-105" data-alt="Triplex sky penthouse overlooking Salamanca and Paseo de la Castellana in Madrid. Double-height living salon, sculptural spiral staircase in aged bronze, Italian marble fireplace, private terrace with heated plunge pool against Madrid skyline dusk. High fashion architectural interior design photography." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAC88r6RNhCJth4ivnt8U_fxz6jR-nF0wjfsK7ZawkYcdun4pEEPAnfxxtfKrY8egfi4qD84U1qihmaNN_q_iUe9ZjZ7uhlz_Uhk5JmMHjU4ircPty1lbHcc-Mz35OrKXFCXhNyqMJU26X6OQFI2Ng3YHQUY-HWmJPT5LdMiVzPAK2i3cJgIYBjoxZk5qMGyFft0s1grJTDrMydZBHVKxq24_K95MsUQNYzMhAQcdXRIEth8tk5S51nkQ')">
+</div>
+<!-- Badges Overlay -->
+<div class="absolute top-space-sm left-space-sm flex items-center gap-1.5">
+<span class="px-2.5 py-1 bg-surface-container-lowest/90 backdrop-blur-md font-label-sm text-label-sm uppercase tracking-wider text-secondary font-semibold rounded">
+                Penthouse Triplex
+              </span>
+<span class="px-2.5 py-1 bg-primary/85 backdrop-blur-md font-label-sm text-label-sm uppercase tracking-wider text-on-primary rounded">
+                En Venta
+              </span>
+</div>
+<!-- Favorite Button -->
+<button class="absolute top-space-sm right-space-sm w-9 h-9 rounded-full bg-surface-container-lowest/90 backdrop-blur-md flex items-center justify-center text-on-surface hover:text-error transition-colors shadow-sm" onclick="toggleFav(this)" type="button">
+<span class="material-symbols-outlined text-[19px]">favorite</span>
+</button>
+</div>
+<!-- Content Body -->
+<div class="p-space-md space-y-space-sm">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-on-surface-variant flex items-center gap-1">
+<span class="material-symbols-outlined text-[15px] text-secondary">pin_drop</span>
+                Barrio Salamanca, Madrid
+              </span>
+<span class="font-label-sm text-label-sm uppercase tracking-widest px-2 py-0.5 rounded bg-surface-container font-medium text-on-surface-variant">Ref. PH-112</span>
+</div>
+<h3 class="font-title-lg text-title-lg text-on-surface group-hover:text-secondary transition-colors line-clamp-1">
+              Penthouse Castellana Sky Crown
+            </h3>
+<!-- Price -->
+<div class="font-headline-sm text-headline-sm font-semibold tracking-tight text-on-surface">
+              $6,400,000 <span class="font-label-md text-label-md text-on-surface-variant font-normal">USD</span>
+</div>
+<!-- Key Specs Matrix -->
+<div class="grid grid-cols-4 gap-1 py-space-xs bg-surface-container-low rounded-lg text-center px-1">
+<div class="flex flex-col items-center justify-center p-1">
+<span class="font-title-md text-title-md text-on-surface font-semibold">610</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase">m² útiles</span>
+</div>
+<div class="flex flex-col items-center justify-center p-1">
+<span class="font-title-md text-title-md text-on-surface font-semibold">4</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase">Suites</span>
+</div>
+<div class="flex flex-col items-center justify-center p-1">
+<span class="font-title-md text-title-md text-on-surface font-semibold">5</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase">Baños</span>
+</div>
+<div class="flex flex-col items-center justify-center p-1">
+<span class="font-title-md text-title-md text-on-surface font-semibold">3</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase">Autos</span>
+</div>
+</div>
+</div>
+</div>
+<div class="px-space-md pb-space-md pt-space-xs">
+<a class="w-full py-2.5 rounded bg-surface-container hover:bg-primary hover:text-on-primary text-on-surface font-label-md text-label-md uppercase tracking-wider flex items-center justify-center gap-1.5 transition-colors" href="#">
+<span>Solicitar Dossier Confidencial</span>
+<span class="material-symbols-outlined text-[16px]">chevron_right</span>
+</a>
+</div>
+</article>
+</div>
+</section>
+<!-- 3. Servicios Privados y Valor de Marca -->
+<section class="w-full bg-surface-container-low py-space-xl">
+<div class="max-w-7xl mx-auto px-margin md:px-gutter-lg">
+<!-- Section Header -->
+<div class="max-w-3xl mx-auto text-center space-y-space-xs mb-space-xl">
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-secondary font-semibold">Estándar PortalHouse</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface tracking-tight">
+          Servicios Privados para Clientes Excepcionales
+        </h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant">
+          Un ecosistema fiduciario diseñado para patrimonios que exigen reserva total, precisión analítica y agilidad transfronteriza.
+        </p>
+</div>
+<!-- Bento Grid of Services -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-gutter-lg">
+<!-- Service 1: Asesoría Privada Off-Market -->
+<div class="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between relative overflow-hidden group">
+<div class="space-y-space-md">
+<div class="w-14 h-14 rounded-xl bg-surface-container flex items-center justify-center text-secondary group-hover:bg-secondary group-hover:text-on-secondary transition-colors">
+<span class="material-symbols-outlined text-[30px]">vpn_key</span>
+</div>
+<div class="space-y-space-xs">
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-outline">01 / Confidencialidad Absoluta</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">
+                Asesoría Privada Off-Market
+              </h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+                Más del 60% de nuestras transacciones de alto perfil jamás se publican en plataformas abiertas. Acceda a inventarios velados y negociaciones directas con los propietarios.
+              </p>
+</div>
+</div>
+<div class="pt-space-lg">
+<div class="flex items-center gap-2 text-secondary font-label-md text-label-md uppercase tracking-wider group-hover:gap-3 transition-all">
+<span>Firmar Acuerdo NDA</span>
+<span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</div>
+</div>
+</div>
+<!-- Service 2: Valuación Arquitectónica -->
+<div class="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between relative overflow-hidden group">
+<div class="space-y-space-md">
+<div class="w-14 h-14 rounded-xl bg-surface-container flex items-center justify-center text-secondary group-hover:bg-secondary group-hover:text-on-secondary transition-colors">
+<span class="material-symbols-outlined text-[30px]">architecture</span>
+</div>
+<div class="space-y-space-xs">
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-outline">02 / Rigor Técnico</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">
+                Valuación Arquitectónica
+              </h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+                Tasación que pondera el pedigree del arquitecto autor, la calidad de materiales singulares, la huella de carbono y el potencial de plusvalía patrimonial a largo plazo.
+              </p>
+</div>
+</div>
+<div class="pt-space-lg">
+<div class="flex items-center gap-2 text-secondary font-label-md text-label-md uppercase tracking-wider group-hover:gap-3 transition-all">
+<span>Consultar Peritaje</span>
+<span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</div>
+</div>
+</div>
+<!-- Service 3: Concierge Inmobiliario Global -->
+<div class="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between relative overflow-hidden group">
+<div class="space-y-space-md">
+<div class="w-14 h-14 rounded-xl bg-surface-container flex items-center justify-center text-secondary group-hover:bg-secondary group-hover:text-on-secondary transition-colors">
+<span class="material-symbols-outlined text-[30px]">travel_explore</span>
+</div>
+<div class="space-y-space-xs">
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-outline">03 / Asistencia Integral</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">
+                Concierge Inmobiliario Global
+              </h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+                Acompañamiento integral en fiscalidad internacional, traslados en aviación privada para visitas guiadas, asesoría legal transfronteriza y diseño de interiores de autor.
+              </p>
+</div>
+</div>
+<div class="pt-space-lg">
+<div class="flex items-center gap-2 text-secondary font-label-md text-label-md uppercase tracking-wider group-hover:gap-3 transition-all">
+<span>Conectar con Concierge</span>
+<span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Trust Quote Strip -->
+<div class="mt-space-xl p-space-lg rounded-2xl bg-surface-container flex flex-col md:flex-row items-center justify-between gap-space-lg">
+<div class="flex items-center gap-space-md">
+<div class="w-12 h-12 rounded-full bg-secondary/15 flex items-center justify-center text-secondary shrink-0">
+<span class="material-symbols-outlined text-[26px]">shield_with_heart</span>
+</div>
+<div>
+<h4 class="font-title-lg text-title-lg text-on-surface">Garantía Fiduciaria PortalHouse</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Estructuración legal y fiscal respaldada por las firmas notariales más prestigiosas de Europa e Iberoamérica.</p>
+</div>
+</div>
+<div class="flex items-center gap-space-sm shrink-0">
+<button class="px-space-md py-space-xs rounded bg-primary text-on-primary font-label-md text-label-md uppercase tracking-wider hover:bg-secondary transition-colors" type="button">
+            Agendar Reunión Privada
+          </button>
+</div>
+</div>
+</div>
+</section>
+<!-- Interactive script for quick filters & favorites micro-interactions -->
+<script>
+    function toggleMode(mode) {
+      const buyBtn = document.getElementById('tab-buy');
+      const rentBtn = document.getElementById('tab-rent');
+      
+      if (mode === 'buy') {
+        buyBtn.className = "flex items-center gap-1.5 px-space-md py-1.5 rounded-full font-label-md text-label-md uppercase tracking-wider transition-all bg-primary text-on-primary shadow-sm";
+        buyBtn.children[0].className = "w-1.5 h-1.5 rounded-full bg-secondary-container";
+        
+        rentBtn.className = "flex items-center gap-1.5 px-space-md py-1.5 rounded-full font-label-md text-label-md uppercase tracking-wider transition-all text-on-surface-variant hover:text-on-surface";
+        rentBtn.children[0].className = "w-1.5 h-1.5 rounded-full bg-transparent";
+      } else {
+        rentBtn.className = "flex items-center gap-1.5 px-space-md py-1.5 rounded-full font-label-md text-label-md uppercase tracking-wider transition-all bg-primary text-on-primary shadow-sm";
+        rentBtn.children[0].className = "w-1.5 h-1.5 rounded-full bg-secondary-container";
+        
+        buyBtn.className = "flex items-center gap-1.5 px-space-md py-1.5 rounded-full font-label-md text-label-md uppercase tracking-wider transition-all text-on-surface-variant hover:text-on-surface";
+        buyBtn.children[0].className = "w-1.5 h-1.5 rounded-full bg-transparent";
+      }
+    }
+
+    function toggleFav(btn) {
+      const icon = btn.querySelector('span');
+      if (icon.style.fontVariationSettings && icon.style.fontVariationSettings.includes("'FILL' 1")) {
+        icon.style.fontVariationSettings = "'FILL' 0";
+        btn.classList.remove('text-error');
+        btn.classList.add('text-on-surface');
+      } else {
+        icon.style.fontVariationSettings = "'FILL' 1";
+        btn.classList.remove('text-on-surface');
+        btn.classList.add('text-error');
+      }
+    }
+  </script>
+</div></main><footer class="w-full bg-surface-container-low border-t border-outline-variant/60 pt-space-xl pb-space-lg text-on-surface"><div class="max-w-7xl mx-auto px-margin md:px-gutter-lg"><div class="grid grid-cols-1 md:grid-cols-12 gap-gutter-lg pb-space-xl border-b border-outline-variant/40"><div class="md:col-span-4 space-y-space-sm"><div class="flex items-center gap-space-xs"><span class="font-headline-sm text-headline-sm tracking-tight text-on-surface uppercase">PortalHouse</span></div><p class="font-body-sm text-body-sm text-on-surface-variant max-w-sm">Arquitectura distinguida y residencias icónicas en los destinos más selectos del mundo. Conexión directa con agentes de alta exclusividad.</p><div class="pt-space-xs"><span class="font-label-sm text-label-sm text-secondary uppercase tracking-widest block mb-space-xs">Curaduría Inmobiliaria</span><span class="font-body-sm text-body-sm text-on-surface-variant">Madrid · Barcelona · Marbella · Costa Brava · Lisboa</span></div></div><div class="md:col-span-2 space-y-space-xs"><h4 class="font-label-md text-label-md uppercase tracking-widest text-on-surface">Explorar</h4><ul class="space-y-space-xs"><li class="pt-1"><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="comprar" href="#">Colección Venta</a></li><li><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="alquilar" href="#">Alquiler Exclusivo</a></li><li><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="catalogo" href="#">Catálogo Anual</a></li><li><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="iniciar-sesion" href="#">Portal Propietarios</a></li></ul></div><div class="md:col-span-2 space-y-space-xs"><h4 class="font-label-md text-label-md uppercase tracking-widest text-on-surface">Compañía</h4><ul class="space-y-space-xs"><li class="pt-1"><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="contacto" href="#">Nuestras Sedes</a></li><li><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="acceso-agente" href="#">Red Privada</a></li><li><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" href="#">Ética &amp; Estilo</a></li><li><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" href="#">Servicios Privados</a></li></ul></div><div class="md:col-span-4 space-y-space-sm"><h4 class="font-label-md text-label-md uppercase tracking-widest text-on-surface">Boletín Arquitectónico</h4><p class="font-body-sm text-body-sm text-on-surface-variant">Reciba bimestralmente propiedades off-market y análisis de inversión inmobiliaria de alto standing.</p><form class="flex items-center gap-space-xs pt-1"><input class="bg-surface font-body-sm text-body-sm text-on-surface px-space-sm py-space-xs border border-outline-variant rounded flex-1 focus:outline-none focus:border-secondary" placeholder="Su dirección de correo" type="email"/><button class="bg-primary text-on-primary font-label-md text-label-md uppercase tracking-wider px-space-md py-space-xs rounded hover:bg-secondary transition-colors" type="submit">Suscribir</button></form><span class="font-label-sm text-label-sm text-on-surface-variant block">Acceso reservado. Discreción garantizada.</span></div></div><div class="pt-space-md flex flex-col md:flex-row items-center justify-between gap-space-sm text-on-surface-variant"><span class="font-label-sm text-label-sm">© 2025 PortalHouse Luxury Real Estate. Todos los derechos reservados.</span><div class="flex items-center gap-space-md font-label-sm text-label-sm"><a class="hover:text-on-surface transition-colors" href="#">Aviso Legal</a><a class="hover:text-on-surface transition-colors" href="#">Privacidad</a><a class="hover:text-on-surface transition-colors" href="#">Cookies</a></div></div></div></footer></body></html>
